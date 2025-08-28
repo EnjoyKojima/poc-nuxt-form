@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const userRole = useState<'admin' | 'user'>('userRole', () => 'admin')
+const userRole = useState<string>('userRole', () => 'admin')
 const userRoles = ref(['admin', 'user'])
 </script>
 
