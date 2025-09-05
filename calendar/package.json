@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-ui-valibot",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.9.0",
+    "@nuxt/ui": "4.0.0-alpha.1",
+    "nuxt": "^4.0.3",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2",
+    "valibot": "^1.1.0",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  }
+}
